@@ -23,100 +23,74 @@
   </head>
 
   <body>
+    <!-- main header-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+    <!-- main container -->
     <div class="container">
       <!-- Timeblocks go here -->
       <!-- 9am time slot -->
-      <div class = "row" data-value ="9" id="9">
-
-        <div class = "col-2 hour">9:00AM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="9am"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="9" id="9">
+        <div class="col-2 hour">9:00AM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="9am"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 10am time slot -->
-      <div class = "row" data-value ="10" id="10">
-
-        <div class = "col-2 hour">10:00AM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="10am"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="10" id="10">
+        <div class="col-2 hour">10:00AM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="10am"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 11am time slot -->
-      <div class = "row" data-value ="11" id="11">
-
-        <div class = "col-2 hour">11:00AM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="11am"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="11" id="11">
+        <div class="col-2 hour">11:00AM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="11am"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 12pm time slot -->
-      <div class = "row" data-value ="12" id="12">
-
-        <div class = "col-2 hour">12:00PM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="12pm"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="12" id="12">
+        <div class="col-2 hour">12:00PM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="12pm"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 1pm time slot -->
-      <div class = "row" data-value ="13" id="13">
-
-        <div class = "col-2 hour">1:00PM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="1pm"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="13" id="13">
+        <div class="col-2 hour">1:00PM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="1pm"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 2pm time slot -->
-      <div class = "row" data-value ="14" id="14">
-
-        <div class = "col-2 hour">2:00PM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="2pm"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="14" id="14">
+        <div class="col-2 hour">2:00PM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="2pm"></textarea></div>
+        <div class="col-2"><button class="saveBtn"><i class="fa fa-save"></i></button></div>
       </div>
       <!-- 3pm time slot -->
-      <div class = "row" data-value ="15" id="15">
-
-        <div class = "col-2 hour">3:00PM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="3pm"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="15" id="15">
+        <div class="col-2 hour">3:00PM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="3pm"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 4pm time slot -->
-      <div class = "row" data-value ="16" id="16">
-
-        <div class = "col-2 hour">4:00PM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="4pm"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="16" id="16">
+        <div class="col-2 hour">4:00PM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="4pm"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
       <!-- 5pm time slot -->
-      <div class = "row" data-value ="17" id="17">
-
-        <div class = "col-2 hour">5:00PM</div>
-
-        <div class = "col-8"><textarea class ="description" name="event" id="5pm"></textarea></div>
-
-        <div class = "col-2"><button class="saveBtn fa fa-save"></button></div>
+      <div class="row" data-value="17" id="17">
+        <div class="col-2 hour">5:00PM</div>
+        <div class="col-8"><textarea class="description" cols="80" row="2" name="task" id="5pm"></textarea></div>
+        <div class="col-2"><button class="saveBtn fa fa-save"></button></div>
       </div>
 
     </div>
 
- 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
