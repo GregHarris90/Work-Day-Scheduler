@@ -38,24 +38,31 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 ### Web Application
 
 *Main Page*
+
 ![Main Page](https://user-images.githubusercontent.com/73864182/106268479-09357900-61e0-11eb-9485-f9aa5fcb0ecd.png)
 
-*Adding Tasks*
-![Added Tasks](https://user-images.githubusercontent.com/73864182/106268540-1c484900-61e0-11eb-9c32-b919fd5a2f58.png)
-
 *Moment.js sets Date/Day/Hour*
+
 ![Moment API](https://user-images.githubusercontent.com/73864182/106272070-4f410b80-61e5-11eb-9e97-d46eea8d9cb6.png)
 
+*Adding Tasks*
+
+![Added Tasks](https://user-images.githubusercontent.com/73864182/106268540-1c484900-61e0-11eb-9c32-b919fd5a2f58.png)
+
 *Inspect Console*
+
 ![Console Logs](https://user-images.githubusercontent.com/73864182/106272168-78fa3280-61e5-11eb-9d2e-5a63630d7092.png)
 
 *Save Buttons log Key/Value*
+
 ![Pushed Buttons](https://user-images.githubusercontent.com/73864182/106268768-63363e80-61e0-11eb-9ccd-95fcda5f39cd.png)
 
 *Check the Local Storage*
+
 ![Local Storage](https://user-images.githubusercontent.com/73864182/106268693-4ac62400-61e0-11eb-85a8-a97bf5754809.png)
 
 *Tasks reloaded from Local Storage*
+
 ![Reload Tasks](https://user-images.githubusercontent.com/73864182/106268875-8f51bf80-61e0-11eb-9a21-b2861b84fe35.png)
 
 *Color panels for Time Slots*
