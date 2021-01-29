@@ -99,8 +99,8 @@ $(document).ready(function () {
 
         console.log(this);
         console.log(row);
-        console.log(key);
-        console.log(value);
+        console.log(key,value);
+    
 
     })
 
