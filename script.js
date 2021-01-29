@@ -13,22 +13,17 @@ $(document).ready(function () {
     $("#currentDay").text(currentDay);
 
     // get previous task based on hour
-    var setHours = ["9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm"]
+    var setHours = ["9","10","11","12","13","14","15","16","17"]
 
     for(let i=0; i<setHours.length; i++){
-        var prevTask = localStorage.getItem(setHours[i]);
+        var val = localStorage.getItem(setHours[i]);
 
-        console.log($("#"+setHours[i]).children("textarea").val(prevTask));
+        console.log($("#"+setHours[i]).children("textarea").val(val));
     }
-        console.log(prevTask);
+        console.log(val);
 
     // save task/hour button
     $(".saveBtn").on("click", function() {
-
-        // var key = $(this).parent().attr("id");
-        // var value = $(this).children("textarea").val();
-
-        // localStorage.setItem(key,value);
 
         var row = $(this).parent();
         var key = row.attr("id");
