@@ -47,7 +47,7 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 ![Moment API](https://user-images.githubusercontent.com/73864182/106272070-4f410b80-61e5-11eb-9e97-d46eea8d9cb6.png)
 
 *Inspect Console*
-![Console Logs](https://user-images.githubusercontent.com/73864182/106268621-37b35400-61e0-11eb-8431-d3b1b2767208.png)
+![Console Logs](https://user-images.githubusercontent.com/73864182/106272168-78fa3280-61e5-11eb-9d2e-5a63630d7092.png)
 
 *Save Buttons log Key/Value*
 ![Pushed Buttons](https://user-images.githubusercontent.com/73864182/106268768-63363e80-61e0-11eb-9ccd-95fcda5f39cd.png)
