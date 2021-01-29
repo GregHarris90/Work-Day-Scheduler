@@ -12,6 +12,34 @@ $(document).ready(function () {
     // adds text currentDay to display in header
     $("#currentDay").text(currentDay);
 
+    // get previous task based on hour
+    var setHours = ["9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm"]
+
+    for(let i=0; i<setHours.length; i++){
+        var prevTask = localStorage.getItem(setHours[i]);
+
+        console.log($("#"+setHours[i]).children("textarea").val(prevTask));
+    }
+        console.log(prevTask);
+
+    // save task/hour button
+    $(".saveBtn").on("click", function() {
+
+        var key = $(this).parent().attr("id");
+        var value = $(this).children(".textarea").val();
+
+        localStorage.setItem(key, value);
+
+        // var row = $(this).parent();
+        // var key = row.attr("id");
+        // var value = row.children("textarea").val();
+        // localStorage.setItem(key, value);
+
+        console.log(this);
+        console.log(key,value);
+        // console.log(row);
+    
+    });
 
     // color panels based on currentHour
     if (currentHour > 9) {
@@ -77,32 +105,6 @@ $(document).ready(function () {
     } else if (currentHour < 17) {
         $("#17").addClass("future");
     }
-
-
-    // get previous task based on hour
-    var setHours = ["9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm"]
-
-    for(let i=0; i<setHours.length; i++){
-        var prevTask = localStorage.getItem(setHours[i]);
-
-        console.log($("#"+setHours[i]).children("textarea").val(prevTask));
-    }
-        console.log(prevTask);
-
-    // save task/hour button
-    $(".saveBtn").click(function() {
-
-        var row = $(this).parent();
-        var key = row.attr("id");
-        var value = row.children("textarea").val();
-        localStorage.setItem(key, value);
-
-        console.log(this);
-        console.log(row);
-        console.log(key,value);
-    
-
-    })
 
 })
 
