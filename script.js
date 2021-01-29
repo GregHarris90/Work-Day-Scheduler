@@ -19,9 +19,8 @@ $(document).ready(function () {
         var val = localStorage.getItem(setHours[i]);
 
         console.log($("#"+setHours[i]).children("textarea").val(val));
-    }
         console.log(val);
-
+    }
     // save task/hour button
     $(".saveBtn").on("click", function() {
 
@@ -34,7 +33,6 @@ $(document).ready(function () {
         console.log(this);
         console.log(row);
         console.log(key,value);
-        
     });
 
     // color panels based on currentHour
@@ -103,34 +101,3 @@ $(document).ready(function () {
     }
 
 })
-
-
-    // OLDER CODE
-    // ===========================================================================
-
-    // run function to get previous task inputs
-    // getPrevInput();
-
-    // var inputPrevTask = $("#9am");
-
-    // function getPrevInput() {
-    //     var prevTask = localStorage.getItem("task");
-
-    //     inputPrevTask.textContent=prevTask;
-    // }
-
-    // console.log(prevTask);
-
-   
-  
-//   $(".saveBtn").on("click", function() {
-
-//     var saveTask = $(this).parent();
-//     var saveHour = $(".row").data();
-
-//     localStorage.setItem(saveHour.value,saveTask);
-
-//     console.log(saveHour.value);
-//     console.log(saveTask);
-
-// });

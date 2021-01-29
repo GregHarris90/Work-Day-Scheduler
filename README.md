@@ -43,6 +43,9 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 *Adding Tasks*
 ![Added Tasks](https://user-images.githubusercontent.com/73864182/106268540-1c484900-61e0-11eb-9c32-b919fd5a2f58.png)
 
+*Moment.js sets Date/Day/Hour*
+![Moment API](https://user-images.githubusercontent.com/73864182/106272070-4f410b80-61e5-11eb-9e97-d46eea8d9cb6.png)
+
 *Inspect Console*
 ![Console Logs](https://user-images.githubusercontent.com/73864182/106268621-37b35400-61e0-11eb-8431-d3b1b2767208.png)
 
