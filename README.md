@@ -11,6 +11,10 @@ Homework assignment for Week 5 of Coding Bootcamp!
 
 # The Repository
 
+* LINK TO LIVE REPOSITORY*
+
+https://gregharris90.github.io/Work-Day-Scheduler/
+
 - This repository is for a web application to use a 'Work Day Scheduler' to plan tasks for the average work day!
 
 # User Story
@@ -60,6 +64,6 @@ Homework assignment for Week 5 of Coding Bootcamp!
 
 - Also building the display with HTML based on the provided CSS, while using Jquery/Bootstrap to build an interactive application and add functionality to the webpage. 
 
--It took me a little longer to finally get everything working and onto GitHub, but I'm glad I was able to get it done!
+- It took me a little longer to finally get everything working, organized, and onto GitHub. But I'm glad I was able to get it done!
 
 *I still need to add an image of the color panels, but I need to wait for tomorrow to use the time change* 
