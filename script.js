@@ -25,20 +25,21 @@ $(document).ready(function () {
     // save task/hour button
     $(".saveBtn").on("click", function() {
 
-        var key = $(this).parent().attr("id");
-        var value = $(this).children(".textarea").val();
+        // var key = $(this).parent().attr("id");
+        // var value = $(this).children("textarea").val();
+
+        // localStorage.setItem(key,value);
+
+        var row = $(this).parent();
+        var key = row.attr("id");
+        var value = row.children("textarea").val();
 
         localStorage.setItem(key, value);
 
-        // var row = $(this).parent();
-        // var key = row.attr("id");
-        // var value = row.children("textarea").val();
-        // localStorage.setItem(key, value);
-
         console.log(this);
+        console.log(row);
         console.log(key,value);
-        // console.log(row);
-    
+        
     });
 
     // color panels based on currentHour
