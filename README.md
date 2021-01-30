@@ -66,7 +66,9 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 ![Reload Tasks](https://user-images.githubusercontent.com/73864182/106268875-8f51bf80-61e0-11eb-9a21-b2861b84fe35.png)
 
 *Color panels for Time Slots*
-*STILL NEED IMAGE*
+
+![Color Panels](https://user-images.githubusercontent.com/73864182/106369461-662b4f00-6306-11eb-8ed3-c71ccb51fb15.png)
+
 
 # Overall Conclusion
 
@@ -75,5 +77,3 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 - Also building the display with HTML based on the provided CSS, while using Jquery/Bootstrap to build an interactive application and add functionality to the webpage. 
 
 - It took me a little longer to finally get everything working, organized, and onto GitHub. But I'm glad I was able to get it done!
-
-*I still need to add an image of the color panels, but I need to wait for tomorrow to use the time change* 
