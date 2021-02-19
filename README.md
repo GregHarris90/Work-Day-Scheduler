@@ -5,17 +5,22 @@ Homework assignment for Week 5 of Coding Bootcamp!
 ### Table of Contents 
 
 1) The Repository
-2) User Story
-3) Work Day Scheduler
-4) Overall Conclusion
+2) Technology Used
+3) User Story
+4) Work Day Scheduler
+5) Overall Conclusion
 
 # The Repository
 
-* LINK TO LIVE REPOSITORY*
+- This repository is for a web application to use a 'Work Day Scheduler' to plan tasks for the average work day!
+
+*LINK TO LIVE REPOSITORY*
 
 https://gregharris90.github.io/Work-Day-Scheduler/
 
-- This repository is for a web application to use a 'Work Day Scheduler' to plan tasks for the average work day!
+# Technology Used
+
+- For this project we used bootstrap to build the structure of the webpage, Font Awesome and Google APIs for some styling for the text and icons. Then using JQuery I implemented Moment.js to make a Work-Day-Scheduler for the user to plan out their work day. 
 
 # User Story
 
@@ -69,6 +74,10 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 
 ![Color Panels](https://user-images.githubusercontent.com/73864182/106369461-662b4f00-6306-11eb-8ed3-c71ccb51fb15.png)
 
+# Contaact Info:
+
+- Name: Greg Harris
+- Email: ghart.productions@gmail.com
 
 # Overall Conclusion
 
