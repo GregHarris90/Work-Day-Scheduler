@@ -77,7 +77,7 @@ https://gregharris90.github.io/Work-Day-Scheduler/
 # Contaact Info:
 
 - Name: Greg Harris
-- Email: ghart.productions@gmail.com
+- Email: ghcoder90@gmail.com
 
 # Overall Conclusion
 
