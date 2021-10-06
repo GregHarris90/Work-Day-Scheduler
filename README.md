@@ -1,7 +1,5 @@
 # Work-Day-Scheduler
 
-Homework assignment for Week 5 of Coding Bootcamp!
-
 ### Table of Contents 
 
 1) The Repository
